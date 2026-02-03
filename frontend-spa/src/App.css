@@ -1,0 +1,27 @@
+.bg-light-soft {
+  background-color: #f8fafc;
+}
+
+.card-student {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-student:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.08) !important;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: #fff;
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.1);
+}
+
+.btn-primary {
+  background-color: #4361ee;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3f37c9;
+}
